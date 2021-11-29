@@ -1,3 +1,13 @@
 function truncate(str, maxlength) {
-  // ваш код...
+  
+  function truncate(str, maxlength) {
+  
+     str.slice(0, maxlength) + "…" ;
+      
+    }
+     truncate('Вот, что мне хотелось бы сказать на эту тему:', 19);
+    
+    
+
+
 }
